@@ -1,6 +1,6 @@
 ----
 
-title: Predicting the 2024 NBA champions
+title: Predicting the 2024 NBA Champions
 authors: Adalo Gusa
 subtitle: NCSSM Open Source J-term project
 date: 2024/01/23
