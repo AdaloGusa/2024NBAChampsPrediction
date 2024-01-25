@@ -27,7 +27,7 @@ To start off analyzing the data, we have to isolate the contending teams. Each y
 
 
 
-The data below shows the same 20 teams in the chart above. It puts into perspective just how much better the championship contenders are than the play-in contenders.  After around the top 5 teams, the percentage begins to drop drastically. Right now, the Boston Celtics currently have the best win percentage in the NBA winning 76.2% of their games so far. The worst play-in contender team, the Atlanta Hawks have a win percentage of just 42.9%, meaning they have a losing record.
+The data below shows the same 20 teams in the chart above. It puts into perspective just how much better the championship contenders are than the play-in contenders.  After around the top 5 teams, the percentage begins to drop drastically. Right now, the Boston Celtics currently have the best win percentage in the NBA winning 76.2 percent of their games so far. The worst play-in contender team, the Atlanta Hawks have a win percentage of just 42.9%, meaning they have a losing record.
 
 
 
@@ -92,7 +92,7 @@ True Shooting = Points/(FGA(0.44*FTA))
 
 
 
-Once again each of these teams is extremely close with one another. The Milwaukee Bucks have the highest TS% with 61.5%. But like always, the Boston Celtics are not far off with their 60.1 TS%. In the Western Conference, Minnesota has a 59.6% while the reigning champs the Denver Nuggets have a smaller 59.2 TS%. Since all of these teams still have a similar shooting percentage there is one final statistic that is arguably the most important.
+Once again each of these teams is extremely close with one another. The Milwaukee Bucks have the highest TS% with 61.5. But like always, the Boston Celtics are not far off with their 60.1 TS%. In the Western Conference, Minnesota has a 59.6 percent while the reigning champs the Denver Nuggets have a smaller 59.2 TS%. Since all of these teams still have a similar shooting percentage there is one final statistic that is arguably the most important.
 
 
 

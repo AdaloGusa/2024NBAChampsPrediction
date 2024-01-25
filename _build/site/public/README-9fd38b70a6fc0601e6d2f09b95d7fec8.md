@@ -11,7 +11,7 @@ date: 2024/01/23
 
  
 ## Background
-With each year the NBA brings new and exciting basketball content to basketball fans around the world. Each of the 30 teams battle each other for the chance at an NBA championship title. By the end of the regular season, only the top 8 teams in each conference advance to the playoffs. The goal of this project is to use stats and advanced data from the regular season so far to predict who will win the chip this year. Although we are only halfway through the season, there is already plenty of data that we can use to determine who will win it all. The stats I will be analyzing are Win Percentage, Offensive and Defensive Rating, Field Goal Percentage, and True Shooting Percentage. These were some of the most important stats determined from a study by Dimitrije [](doi:10.1371/journal.pone.0273427). I decided to also look at a statistic few other people have used which were fan betting odds through ESPN. My goal is to continuously update the data as the season goes on so that at the end of the regular season there is a clear champion. This data will not take into account the possibility of injuries that may impact season outcomes.
+With each year the NBA brings new and exciting basketball content to basketball fans around the world. Each of the 30 teams battle each other for the chance at an NBA championship title. By the end of the regular season, only the top 8 teams in each conference advance to the playoffs. The goal of this project is to use stats and advanced data from the regular season so far to predict who will win the chip this year. Although we are only halfway through the season, there is already plenty of data that we can use to determine who will win it all. The stats I will be analyzing are Win Percentage, Offensive and Defensive Rating, Field Goal Percentage, and True Shooting Percentage. These were some of the most important stats determined from a study by Dimitrije [](doi:10.1371/journal.pone.0273427). I decided to also look at a statistic few other people have used which were fan odds through ESPN. My goal is to continuously update the data as the season goes on so that at the end of the regular season there is a clear champion. This data will not take into account the possibility of injuries that may impact season outcomes.
 
 
 
@@ -27,7 +27,7 @@ To start off analyzing the data, we have to isolate the contending teams. Each y
 
 
 
-The data below shows the same 20 teams in the chart above. It puts into perspective just how much better the championship contenders are than the play-in contenders.  After around the top 5 teams, the percentage begins to drop drastically. Right now, the Boston Celtics currently have the best win percentage in the NBA winning 76.2% of their games so far. The worst play-in contender team, the Atlanta Hawks have a win percentage of just 42.9%, meaning they have a losing record.
+The data below shows the same 20 teams in the chart above. It puts into perspective just how much better the championship contenders are than the play-in contenders.  After around the top 5 teams, the percentage begins to drop drastically. Right now, the Boston Celtics currently have the best win percentage in the NBA winning 76.2 percent of their games so far. The worst play-in contender team, the Atlanta Hawks have a win percentage of just 42.9%, meaning they have a losing record.
 
 
 
@@ -49,7 +49,7 @@ An interesting way I decided to look at who NBA fans think is going to win the N
 
 ```{math}
 :label: my-equation
-Percentage = (100/ (Positive Betting Odd + 100)) * 100
+percentage = (100/ (betting odd + 100)) * 100
 ```
 ![](#BettingOdds)
 We can see that the Boston Celtics are the overwhelming favorite with 26% of fans believing they will win it all. The Celtics are followed by the Denver Nuggets, who were the 2023 NBA champions, with 20%. The Milwaukee Bucks are the last obvious pick with 17% of bets being placed on them to win it all. Even though the percentages of the remaining teams are lower, they are all still champion contenders. While this data is incredibly skewed by the fan bases that some of these teams have, it is still interesting to look at what someone willing to put some of their money up thinks about the 2024 season.
@@ -92,7 +92,7 @@ True Shooting = Points/(FGA(0.44*FTA))
 
 
 
-Once again each of these teams is extremely close with one another. The Milwaukee Bucks have the highest TS% with 61.5%. But like always, the Boston Celtics are not far off with their 60.1 TS%. In the Western Conference, Minnesota has a 59.6% while the reigning champs the Denver Nuggets have a smaller 59.2 TS%. Since all of these teams still have a similar shooting percentage there is one final statistic that is arguably the most important.
+Once again each of these teams is extremely close with one another. The Milwaukee Bucks have the highest TS% with 61.5. But like always, the Boston Celtics are not far off with their 60.1 TS%. In the Western Conference, Minnesota has a 59.6 percent while the reigning champs the Denver Nuggets have a smaller 59.2 TS%. Since all of these teams still have a similar shooting percentage there is one final statistic that is arguably the most important.
 
 
 
